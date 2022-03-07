@@ -5,7 +5,30 @@
 }
 
 .section-center {
-  max-width: 50rem;
-  margin: 0 auto;
+  max-width: 65rem;
+  margin: 2rem auto;
   text-transform: capitalize;
+}
+
+.color {
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.color-light {
+  color: #fff;
+}
+
+.error {
+  color: red;
+}
+
+form {
+  margin-bottom: 2rem;
 }
