@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import React, { useState, useEffect } from "react";
+import SingleColor from "./singleColor";
 
 function App() {
+  const [color, setColor] = useState("");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <section className="section-center">
+        <h3>color generator</h3>
+        <div>
+          <input placeholder="#f15025" />
+          <button>generate</button>
+        </div>
+        <SingleColor />
+      </section>
+    </>
   );
 }
 
