@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 const SingleColor = function ({ rgb, weight, index, hex }) {
   const [alert, setAlert] = useState(false);
   const bcg = rgb.join(",");

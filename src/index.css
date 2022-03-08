@@ -32,3 +32,22 @@
 form {
   margin-bottom: 2rem;
 }
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: #000;
+  padding: 0.5rem 1rem;
+  border: none;
+  text-transform: capitalize;
+}
+
+input {
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+}

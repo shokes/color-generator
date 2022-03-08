@@ -32,7 +32,9 @@ function App() {
               setColor(e.target.value);
             }}
           />
-          <button type="submit">generator</button>
+          <button className="btn" type="submit">
+            generator
+          </button>
         </form>
         <section className="grid">
           {error && <p className="error">Please enter a valid hex code</p>}
